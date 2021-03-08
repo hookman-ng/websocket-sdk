@@ -1,0 +1,27 @@
+{
+  "name": "hookman-client-sdk",
+  "version": "1.0.0",
+  "description": "Hookman WebSocket client sdk",
+  "private": true,
+  "main": "dist/hookman.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [
+    "Hookman",
+    "WebSocket",
+    "client",
+    "sdk"
+  ],
+  "author": "Samwul",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.14.5",
+    "ts-loader": "^8.0.7",
+    "typescript": "^4.0.5",
+    "webpack": "^5.3.0",
+    "webpack-cli": "^4.1.0",
+    "websocket": "^1.0.33"
+  }
+}
