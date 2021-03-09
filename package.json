@@ -1,6 +1,6 @@
 {
   "name": "hookman-sdk",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Hookman WebSocket client sdk",
   "main": "dist/hookman.min.js",
   "scripts": {
@@ -15,6 +15,10 @@
   ],
   "author": "Samwul",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hookman-ng/websocket-sdk.git"
+  },
   "devDependencies": {
     "@types/node": "^14.14.33",
     "ts-loader": "^8.0.17",
