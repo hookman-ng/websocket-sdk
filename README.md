@@ -1,6 +1,6 @@
 ## Installation
 ### Install in the browser
-``` <script src="https://unpkg/js/hookman.min.js"></script>```
+``` <script src="https://unpkg.com/hookman-sdk@0.1.1/dist/hookman.min.js"></script>```
 
 ### Usage in NodeJS
 ``` npm install hookman-sdk```
