@@ -3,7 +3,7 @@
 ``` <script src="https://unpkg/js/hookman.min.js"></script>```
 
 ### Usage in NodeJS
-``` npm install hookman```
+``` npm install hookman-sdk```
 The browser WebSocket class is not available in NodeJS by default.
 
 So we would need to make it available in order for Hookman to work in NodeJS
@@ -11,7 +11,7 @@ So we would need to make it available in order for Hookman to work in NodeJS
     const ws = require('websocket');
     global.WebSocket = ws.w3cwebsocket;
 
-    const Hookman = require('hookman');
+    const Hookman = require('hookman-sdk');
 ```
 
 ### Clone this Repo
